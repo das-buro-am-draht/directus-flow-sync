@@ -54,5 +54,8 @@ Pull request welcome. For major changes, please open an issue first to discuss w
 ## Support
 In case you need help or have questions, feel free to contact us via [support@dasburo.com](mailto:support@dasburo.com) or [create an issue].
 
+## License
+This project is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) license.
+
 ## Credits
 Inspired by [Gerard Lamusse's](https://github.com/u12206050) solution in [directus-rbac-sync](https://github.com/u12206050/directus-rbac-sync).

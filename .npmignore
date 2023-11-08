@@ -1,5 +1,4 @@
 .prettierrc
-.eslintrc.js
 tsconfig.json
 src
 node_modules

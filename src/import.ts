@@ -7,7 +7,7 @@ import { Logger } from 'pino';
 import { getArrayFromCsv } from './csv';
 
 export const getFlowOperations = async (flowId: PrimaryKey) => {
-    const operations: OperationRaw[] = await readFromFs(operationsFile);
+    const operations: OperationRaw[] = (await readFromFs(operationsFile)) || [];
 
     return operations.filter((operation) => operation.flow === flowId);
 };
@@ -43,7 +43,7 @@ export const processFlow = async (
 
     flow.operation = null;
     flow.operations = [];
-    flow.user_created = String(options.userId) || '';
+    flow.user_created = options.userId ? String(options.userId) : '';
 
     await flows.createOne(flow);
 
@@ -57,7 +57,9 @@ export const processFlow = async (
         }
 
         const operationClone: OperationRaw = { ...operation };
-        operationClone.user_created = String(options.userId) || '';
+        operationClone.user_created = options.userId
+            ? String(options.userId)
+            : '';
         operationClone.resolve = null;
         operationClone.reject = null;
 

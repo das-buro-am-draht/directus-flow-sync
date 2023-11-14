@@ -1,4 +1,4 @@
-export const getArrayFromCsv = (importIds: {}) =>
+export const getArrayFromCsv = (importIds: unknown) =>
   String(importIds)
     .split(',')
     .map((id) => id.trim())

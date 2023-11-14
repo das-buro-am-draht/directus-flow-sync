@@ -43,7 +43,7 @@ export const createInitHandler =
 
               logger.info('Flows and operations written to DB!');
               process.exit(0);
-            } catch (err: any) {
+            } catch (err: unknown) {
               logger.error(err);
               process.exit(1);
             }
@@ -66,7 +66,7 @@ export const createInitHandler =
 
               logger.info('Flows and operations written to filesystem!');
               process.exit(0);
-            } catch (err: any) {
+            } catch (err: unknown) {
               logger.error(err);
               process.exit(1);
             }

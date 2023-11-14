@@ -4,7 +4,7 @@ import { OptionValues } from '@commander-js/extra-typings';
 import { checkPath, flowsFile, operationsFile } from './filesystem';
 import { Logger } from 'pino';
 
-const serialize = (obj: any) => JSON.stringify(obj, null, 2);
+const serialize = (obj: object) => JSON.stringify(obj, null, 2);
 
 export const exportToFilesystem = async (
   { flows, operations }: ServiceApi,

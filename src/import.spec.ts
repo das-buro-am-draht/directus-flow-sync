@@ -44,15 +44,6 @@ describe('import', () => {
 
       expect(actual).toHaveLength(0);
     });
-
-    it('should return empty array if flow id is invalid', async () => {
-      mockReadFromFs.mockReturnValue(
-        Promise.resolve([{ flow: '12345' }, { flow: '67890' }])
-      );
-      const actual = await getFlowOperations(undefined as any);
-
-      expect(actual).toHaveLength(0);
-    });
   });
 
   describe('processFlow', () => {

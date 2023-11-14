@@ -10,7 +10,7 @@ export const checkPath = async () => {
   return await fs.access(filesPath);
 };
 
-export const readFromFs = async <T = any>(path: string): Promise<T> => {
+export const readFromFs = async <T = object>(path: string): Promise<T> => {
   const json = await fs.readFile(path, 'utf-8');
   return JSON.parse(json);
 };

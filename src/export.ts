@@ -7,34 +7,34 @@ import { Logger } from 'pino';
 const serialize = (obj: any) => JSON.stringify(obj, null, 2);
 
 export const exportToFilesystem = async (
-    { flows, operations }: ServiceApi,
-    options: OptionValues,
-    logger: Logger
+  { flows, operations }: ServiceApi,
+  options: OptionValues,
+  logger: Logger
 ) => {
-    await checkPath();
+  await checkPath();
 
-    const status = options.includeInactive
-        ? ['active', 'inactive']
-        : ['active'];
+  const status = options.includeInactive
+    ? ['active', 'inactive']
+    : ['active'];
 
-    const flowsQuery = {
-        filter: { status: { _in: status } },
-        limit:  -1
-    };
+  const flowsQuery = {
+    filter: { status: { _in: status } },
+    limit:  -1
+  };
 
-    const rawFlows = await flows.readByQuery(flowsQuery);
-    logger.debug(`Writing ${rawFlows.length} flows to the file system ...`);
-    await fs.writeFile(flowsFile, serialize(rawFlows));
+  const rawFlows = await flows.readByQuery(flowsQuery);
+  logger.debug(`Writing ${rawFlows.length} flows to the file system ...`);
+  await fs.writeFile(flowsFile, serialize(rawFlows));
 
-    const flowIds = rawFlows.map((flow) => flow.id);
-    const operationsQuery = {
-        filter: { flow: { _in: flowIds } },
-        limit:  -1
-    };
+  const flowIds = rawFlows.map((flow) => flow.id);
+  const operationsQuery = {
+    filter: { flow: { _in: flowIds } },
+    limit:  -1
+  };
 
-    const rawOperations = await operations.readByQuery(operationsQuery);
-    logger.debug(
-        `Writing ${rawOperations.length} operations to the file system ...`
-    );
-    await fs.writeFile(operationsFile, serialize(rawOperations));
+  const rawOperations = await operations.readByQuery(operationsQuery);
+  logger.debug(
+    `Writing ${rawOperations.length} operations to the file system ...`
+  );
+  await fs.writeFile(operationsFile, serialize(rawOperations));
 };

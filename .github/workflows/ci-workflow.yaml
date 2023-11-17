@@ -1,9 +1,7 @@
 name: CI Workflow
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ develop ]
+    branches: [ develop, main ]
 
 jobs:
   unit-tests:

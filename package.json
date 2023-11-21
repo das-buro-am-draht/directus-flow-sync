@@ -3,6 +3,10 @@
 	"description": "Import and export directus flows and operations",
 	"icon": "extension",
 	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/das-buro-am-draht/directus-flow-sync.git"
+	},
 	"keywords": [
 		"directus",
 		"directus-extension",

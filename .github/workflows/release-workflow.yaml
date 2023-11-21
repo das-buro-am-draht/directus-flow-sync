@@ -36,6 +36,10 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: npm ci
 
+      - name: Authenticate with GitHub Packages
+        if: ${{ steps.release.outputs.release_created }}
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+
       - name: Publish to GitHub Packages
         if: ${{ steps.release.outputs.release_created }}
         run: npm publish

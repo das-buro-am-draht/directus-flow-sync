@@ -17,6 +17,7 @@ jobs:
         with:
           release-type: node
           package-name: directus-flow-sync
+          default-branch: 'main'
 
       - name: Checkout
         if: ${{ steps.release.outputs.release_created }}

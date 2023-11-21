@@ -17,6 +17,7 @@ jobs:
         with:
           release-type: node
           package-name: directus-flow-sync
+          default-branch: 'main'
 
       - name: Checkout
         if: ${{ steps.release.outputs.release_created }}
@@ -28,7 +29,6 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://npm.pkg.github.com'
-          default-branch: 'main'
 
       - name: Install dependencies
         if: ${{ steps.release.outputs.release_created }}

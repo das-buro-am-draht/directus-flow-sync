@@ -7,6 +7,9 @@
 		"type": "git",
 		"url": "https://github.com/das-buro-am-draht/directus-flow-sync.git"
 	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"keywords": [
 		"directus",
 		"directus-extension",

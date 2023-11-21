@@ -19,6 +19,7 @@ jobs:
           release-type: node
           package-name: directus-flow-sync
           default-branch: 'main'
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false},{"type":"ci","section":"Workflows","hidden":false}]'
 
       - name: Checkout
         if: ${{ steps.release.outputs.release_created }}

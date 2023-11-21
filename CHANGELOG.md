@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.0...v1.1.1) (2023-11-21)
+
+
+### Bug Fixes
+
+* **workflow:** set id for release step ([14059b1](https://github.com/das-buro-am-draht/directus-flow-sync/commit/14059b1e68f55136a02eb5fe1f2fd70970f65b4b))
+
+
+### Workflows
+
+* add changelog section for ci changes ([6d996f3](https://github.com/das-buro-am-draht/directus-flow-sync/commit/6d996f31c299d0a8a70efa9833ef7e72a7d8ddcd))
+
 ## [1.1.0](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.0.0...v1.1.0) (2023-11-21)
 
 

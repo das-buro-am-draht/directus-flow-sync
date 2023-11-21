@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.1...v1.1.2) (2023-11-21)
+
+
+### Workflows
+
+* add authentication for github npm package registry ([0f64065](https://github.com/das-buro-am-draht/directus-flow-sync/commit/0f64065c9f49a3a888322878397e1b03a7215f33))
+
 ## [1.1.1](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.0...v1.1.1) (2023-11-21)
 
 

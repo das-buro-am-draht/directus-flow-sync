@@ -1,8 +1,15 @@
 {
-	"name": "directus-flow-sync",
+	"name": "@das-buro-am-draht/directus-flow-sync",
 	"description": "Import and export directus flows and operations",
 	"icon": "extension",
 	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/das-buro-am-draht/directus-flow-sync.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"keywords": [
 		"directus",
 		"directus-extension",

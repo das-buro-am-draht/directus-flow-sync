@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.5](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.4...v1.1.5) (2023-12-06)
+
+
+### Bug Fixes
+
+* use correct protocol for repository url ([b95ecc9](https://github.com/das-buro-am-draht/directus-flow-sync/commit/b95ecc9153af7137ef5959e706ea47a117a7a260))
+
+
+### Workflows
+
+* add node_modules caching in ci workflow ([d230681](https://github.com/das-buro-am-draht/directus-flow-sync/commit/d230681f4abcb80b01b7727beb2030d88e3a3138))
+* add npm cache directive to node setup step in release workflow ([36f9ad1](https://github.com/das-buro-am-draht/directus-flow-sync/commit/36f9ad1624275d612171fe5dd48a6643f961d4a4))
+
 ## [1.1.4](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.3...v1.1.4) (2023-12-06)
 
 

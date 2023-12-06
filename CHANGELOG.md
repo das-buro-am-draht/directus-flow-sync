@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.3...v1.1.4) (2023-12-06)
+
+
+### Workflows
+
+* use GITHUB_TOKEN for npm release ([23284d3](https://github.com/das-buro-am-draht/directus-flow-sync/commit/23284d34ebba18e682befcb111d0c3b9b732758a))
+
 ## [1.1.3](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.2...v1.1.3) (2023-12-06)
 
 

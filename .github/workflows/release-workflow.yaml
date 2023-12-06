@@ -42,4 +42,4 @@ jobs:
 
       - name: Publish to GitHub Packages
         if: ${{ steps.release.outputs.release_created }}
-        run: npm publish
+        run: npm publish --access public

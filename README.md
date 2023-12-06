@@ -35,7 +35,7 @@ npx directus flow import
 
 ## CLI Options
 The following CLI options are available when exporting flows and operations:
-- `-i`, `--incluce-inactive`: Include inactive flows and operations in the export. Defaults to `false`.
+- `-i`, `--include-inactive`: Include inactive flows and operations in the export. Defaults to `false`.
 
 The following CLI options are available when importing flows and operations:
 - `-u`, `--user-id <uuid>`: The user id to use for the import. Defaults to `null`.

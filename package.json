@@ -5,7 +5,7 @@
 	"version": "1.1.4",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/das-buro-am-draht/directus-flow-sync.git"
+		"url": "git+https://github.com/das-buro-am-draht/directus-flow-sync.git"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"

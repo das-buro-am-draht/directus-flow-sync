@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.3](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.2...v1.1.3) (2023-12-06)
+
+
+### Miscellaneous
+
+* format code ([4be67ca](https://github.com/das-buro-am-draht/directus-flow-sync/commit/4be67ca0835b8f2f4e9c32bdb08cbdc97f92a3a9))
+
+
+### Workflows
+
+* make package publicly available ([b9b77f5](https://github.com/das-buro-am-draht/directus-flow-sync/commit/b9b77f55ca50c126fdd544d7e3efe5c4b0c72e63))
+
 ## [1.1.2](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.1...v1.1.2) (2023-11-21)
 
 

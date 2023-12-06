@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.5...v1.1.6) (2023-12-06)
+
+
+### Workflows
+
+* add write permission to release workflow ([c464bf5](https://github.com/das-buro-am-draht/directus-flow-sync/commit/c464bf58dbc5aa72d35a35ca316bd86e0a77fdad))
+
 ## [1.1.5](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.4...v1.1.5) (2023-12-06)
 
 

@@ -1,5 +1,5 @@
 {
-	"name": "@das-buro-am-draht/directus-flow-sync",
+	"name": "@open-buro-am-draht/directus-flow-sync",
 	"description": "Import and export directus flows and operations",
 	"icon": "extension",
 	"version": "1.0.0",

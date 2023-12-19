@@ -11,7 +11,9 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - name: Execute Release Please
         id: release
@@ -40,6 +42,6 @@ jobs:
 
       - name: Publish to GitHub Packages
         if: ${{ steps.release.outputs.release_created }}
-        run: npm publish --access public
+        run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

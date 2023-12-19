@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.8...v1.1.9) (2023-12-19)
+
+
+### Workflows
+
+* add build step ([f45ba96](https://github.com/das-buro-am-draht/directus-flow-sync/commit/f45ba96797b60e58da6bcc7fe478f91df999697a))
+
 ## [1.1.8](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.7...v1.1.8) (2023-12-19)
 
 

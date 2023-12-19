@@ -11,9 +11,7 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
+    permissions: write-all
     steps:
       - name: Execute Release Please
         id: release

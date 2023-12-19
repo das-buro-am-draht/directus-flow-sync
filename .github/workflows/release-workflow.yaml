@@ -38,6 +38,10 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: npm ci
 
+      - name: Build extension
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm run build
+
       - name: Publish to GitHub Packages
         if: ${{ steps.release.outputs.release_created }}
         run: npm publish --provenance --access public

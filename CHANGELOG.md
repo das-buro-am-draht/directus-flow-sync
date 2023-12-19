@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.6...v1.1.7) (2023-12-19)
+
+
+### Workflows
+
+* publish package to npmjs ([78a8bb1](https://github.com/das-buro-am-draht/directus-flow-sync/commit/78a8bb1e19e08a288ca2f715239466273006f18a))
+
 ## [1.1.6](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.5...v1.1.6) (2023-12-06)
 
 

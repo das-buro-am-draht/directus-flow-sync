@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.8](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.7...v1.1.8) (2023-12-19)
+
+
+### Bug Fixes
+
+* use correct scope for publishing to npmjs ([2bd614f](https://github.com/das-buro-am-draht/directus-flow-sync/commit/2bd614f4f7738fb5d7d19c3252e03181a320c2b4))
+* use npmjs registry url ([7d22245](https://github.com/das-buro-am-draht/directus-flow-sync/commit/7d222452c961d7fce0869a9cbcdc965390761f66))
+
+
+### Workflows
+
+* rollback release please version ([f1354d9](https://github.com/das-buro-am-draht/directus-flow-sync/commit/f1354d9688458dc55a4a644ad6eae4fbeb965c40))
+* update release please to v4 ([76e5744](https://github.com/das-buro-am-draht/directus-flow-sync/commit/76e574494d8521f2a194d949dea4dbeb0588672a))
+* update to write all permissions ([b0a9359](https://github.com/das-buro-am-draht/directus-flow-sync/commit/b0a935972109e93fa0918d8ab1fc1b96cfcb68f4))
+* update workflow to publish provenance information to npmjs ([8003313](https://github.com/das-buro-am-draht/directus-flow-sync/commit/800331339620287834ed5fbf83f222558ef18322))
+
 ## [1.1.7](https://github.com/das-buro-am-draht/directus-flow-sync/compare/v1.1.6...v1.1.7) (2023-12-19)
 
 
